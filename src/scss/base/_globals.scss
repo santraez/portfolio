@@ -1,0 +1,57 @@
+@use 'variables' as v;
+@use 'base/mixins' as m;
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+    scroll-padding-top: 0rem;
+}
+*, 
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+body {
+    font-family: v.$main-font;
+    font-size: 1rem;
+    background-color: rgb(0, 0, 0);
+}
+.container {
+    display: grid;
+    @include m.phone {
+        grid-template-columns: 8vw 92vw;
+    }
+    @include m.desktop {
+        grid-template-columns: 5vw 90vw;
+    }
+    grid-template-rows: 1fr;
+    background-color: transparent;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;    
+}
+p {
+    font-size: 2rem;
+}
+a {
+    text-decoration: none;
+}
+input {
+    display: none;
+}
+h1, h2, h3, h4 {
+    margin: 0;
+}
+h1 {
+    font-size: 4rem;
+}
+h2 {
+    font-size: 3.5rem;
+}
+h3 {
+    font-size: 3rem;
+}
+h4 {
+    font-size: 2.5rem;
+}

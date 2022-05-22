@@ -1,0 +1,1 @@
+{"version":3,"sources":["app.js"],"names":["startApp","document","addEventListener"],"mappings":"AAOA,SAASA,YANTC,SAASC,iBAAkB,oBAAoB,WAE9CF","file":"app.js","sourcesContent":["//Start\ndocument.addEventListener( 'DOMContentLoaded', function() {\n\n\tstartApp();\n    \n} );\n\nfunction startApp() {\n    \n    \n    \n}\n"]}

@@ -1,1 +1,6 @@
 <?php
+
+$gato = 'bonito';
+
+?>
+
